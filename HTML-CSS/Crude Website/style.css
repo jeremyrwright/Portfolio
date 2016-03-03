@@ -1,0 +1,57 @@
+﻿@charset "UTF-8";
+
+article, header, main, nav, section {
+  display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p,
+article, header, main, nav, section {
+  padding: 0;
+  margin: 0;
+}
+
+.banner {
+  background-color: #000000;
+  color: white;
+  padding: 10px 20px;
+}
+
+body {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f0f0f0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+
+nav {
+  background-color: #ffffff;
+  padding: 5px;
+  margin-top: 1px;
+}
+
+li a {
+  color: black;
+}
+
+li {
+  display: inline;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 15px;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+table {
+  background-color: white;
+  margin-top: 10px;
+  padding: 55px;
+}
+
+article {
+  background-color: white;
+  margin-top: 5px;
+  padding: 10px 15px;
+}
