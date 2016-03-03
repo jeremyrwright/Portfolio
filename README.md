@@ -1,9 +1,8 @@
 ### Portfolio
 ***
+I'm currently immersed in a coding boot camp with the goal of being a well rounded junior software developer by June 2016. I'm honing my HTML and CSS skills while adding C#, Python, JavaScript, SQL and Git version control to my arsenal.
 
-Write introduction
-
-Check out my LinkedIn and my blog to learn more about me.
+Check out my [LinkedIn](https://www.linkedin.com/in/jeremy-wright-14bb2652) page for the condensed version of my backstory.
 
 #### HTML & CSS
 * [HTML & CSS  Examples](./HTML-CSS)
