@@ -1,0 +1,11 @@
+USE Library
+GO
+
+CREATE PROC NoBookBorrowers
+AS
+
+SELECT BOR.Name
+FROM Borrower AS BOR
+LEFT OUTER JOIN Book_Loans AS BL
+ON BOR.CardNo = BL.CardNo
+WHERE BL.CardNo IS NULL
