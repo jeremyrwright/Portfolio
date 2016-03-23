@@ -2,7 +2,8 @@
 <html>
 <head>
     <title>Fight For Your Wright</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="css/lightbox.css" rel="stylesheet">
     <meta charset="utf-8" />
 </head>
 <body>
@@ -11,32 +12,43 @@
         <p>Karaoke for Drummers</p>
     </header>
     <nav>
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="video.html">VIDEOS</a></li>
-            <li><a href="FAQ.html">FAQs</a></li>
 
-        </ul>
+      <div class="menuBackground">
+      	<div class="center myMenu">
+      		<ul class="dropDownMenu">
+                <li><a href="index.html">HOME</a>
+            <ul>
+                <li><a href="face.html">DRUM FACES</a></li>
+                <li><a href="video.html">VIDEOS</a></li>
+                <li><a href="FAQ.html">FAQs</a></li>
+            </ul>
+      		</ul>
+      	</div>
+      </div>
     </nav>
     <main>
-        <table style="width: 59%; height: 88px;">
+        <table style="width: 59%; height: 88px;" class="youtube">
             <tr>
                 <td>
-                    <iframe width="420" height="300" src="https://www.youtube.com/embed/aG1HG6O5v8k" frameborder="0" allowfullscreen></iframe>
+                  <a href="https://www.youtube.com/embed/aG1HG6O5v8k" class="html5lightbox" title="QOTSA - No One Knows"><img src="images/video1.jpg"></a>
                 </td>
                 <td>
-                    <iframe width="420" height="300" src="https://www.youtube.com/embed/Ug3_UJy_DAw" frameborder="0" allowfullscreen></iframe>
+                  <a href="https://www.youtube.com/embed/Ug3_UJy_DAw" class="html5lightbox" title="Black Keys - Tighten Up"><img src="images/video2.jpg"></a>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <iframe width="420" height="300" src="https://www.youtube.com/embed/Z_d2L5gixGs" frameborder="0" allowfullscreen></iframe>
+                  <a href="https://www.youtube.com/embed/Z_d2L5gixGs" class="html5lightbox" title="Kenny Loggins - Danger Zone"><img src="images/video3.jpg"></a>
                 </td>
                 <td>
-                    <iframe width="420" height="300" src="https://www.youtube.com/embed/OYUTLyeL4n0" frameborder="0" allowfullscreen></iframe>
+                  <a href="https://www.youtube.com/embed/OYUTLyeL4n0" class="html5lightbox" title="Reignwolf - Electric Love"><img src="images/video4.jpg"></a>
                 </td>
             </tr>
         </table>
     </main>
+    <script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
+    <script type="text/javascript" src="js/my_code.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="html5lightbox.js"></script>
 </body>
 </html>

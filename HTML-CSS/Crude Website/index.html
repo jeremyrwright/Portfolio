@@ -2,7 +2,8 @@
 <html>
 <head>
     <title>Fight For Your Wright</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="css/lightbox.css" rel="stylesheet">
     <meta charset="utf-8" />
     </head>
 <body>
@@ -11,15 +12,25 @@
         <p>Karaoke for Drummers</p>
     </header>
     <nav>
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="video.html">VIDEOS</a></li>
-            <li><a href="FAQ.html">FAQs</a></li>
 
-        </ul>
+      <div class="menuBackground">
+      	<div class="center myMenu">
+      		<ul class="dropDownMenu">
+                <li><a href="index.html">HOME</a>
+            <ul>
+                <li><a href="face.html">DRUM FACES</a></li>
+                <li><a href="video.html">VIDEOS</a></li>
+                <li><a href="FAQ.html">FAQs</a></li>
+            </ul>
+      		</ul>
+      	</div>
+      </div>
     </nav>
 
-    <img src="images/ffyw.jpg" alt="drummingfool" height="540" width="960">
+    <img src="images/ffyw.jpg" alt="drummingfool" height="461" width="960">
 
+    <script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
+    <script type="text/javascript" src="js/my_code.js"></script>
+    <script src="js/lightbox.js"></script>
    </body>
 </html>
