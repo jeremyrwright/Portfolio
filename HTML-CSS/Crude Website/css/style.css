@@ -16,8 +16,12 @@ article, header, main, nav, section {
   padding: 10px 20px;
 }
 
+<<<<<<< Updated upstream
 /*removes watermark from lightbox*/
 #html5-watermark {
+=======
+#html5-watermark { //removes the lightbox watermark
+>>>>>>> Stashed changes
   display: none !important;
 }
 
