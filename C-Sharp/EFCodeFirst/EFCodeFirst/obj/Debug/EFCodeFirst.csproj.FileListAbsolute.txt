@@ -1,0 +1,10 @@
+C:\C#Programs\EFCodeFirst\EFCodeFirst\bin\Debug\EFCodeFirst.exe.config
+C:\C#Programs\EFCodeFirst\EFCodeFirst\obj\Debug\EFCodeFirst.csprojResolveAssemblyReference.cache
+C:\C#Programs\EFCodeFirst\EFCodeFirst\bin\Debug\EFCodeFirst.exe
+C:\C#Programs\EFCodeFirst\EFCodeFirst\bin\Debug\EFCodeFirst.pdb
+C:\C#Programs\EFCodeFirst\EFCodeFirst\bin\Debug\EntityFramework.dll
+C:\C#Programs\EFCodeFirst\EFCodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\C#Programs\EFCodeFirst\EFCodeFirst\bin\Debug\EntityFramework.xml
+C:\C#Programs\EFCodeFirst\EFCodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\C#Programs\EFCodeFirst\EFCodeFirst\obj\Debug\EFCodeFirst.exe
+C:\C#Programs\EFCodeFirst\EFCodeFirst\obj\Debug\EFCodeFirst.pdb
